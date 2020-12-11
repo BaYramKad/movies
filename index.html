@@ -1,0 +1,214 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/css/media.css">
+    <link href="https://fonts.googleapis.com/css2?family=Russo+One&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/icons/window.svg" type="image/x-icon">
+    <script src="script.js" defer></script>
+    <title>MoviesTV</title>
+</head>
+<body> 
+    <form id="form-modal" action="#">
+        <img src="" alt="">
+        <div class="form__container">
+            <!-- <span id =""spanExit></span> -->
+            <h1 class="form-h1">Вход</h1>
+            <div class="form-modal__input">
+                <input class="input-form" id="login" type="text" placeholder="Логин или E-mail">
+                <input class="input-form" id="password" type="password" placeholder="Пароль">
+                <input class="input-form" id="phone" type="phone" placeholder="Телефон">
+            </div>
+            <button class="button">Войти</button>
+            <button class="button">Регистрация</button>
+        </div>
+    </form>
+    <header class="header">
+        <div class="content">
+            <div class="navigation-menu">
+                <a class="burger-menu">
+                    <span class="span-burger-menu"></span>
+                </a>
+            </div>
+            <div class="img-logo">
+                <img class="header-logo" src="icons/logo.svg">
+            </div>
+            <div class="menu">
+                <ul>
+                    <li class="list-style">
+                        <a id="newFilms" class="menu-style" href="#">Новинки</a>
+                    </li>
+                    <li class="list-style">
+                        <a class="menu-style" href="#">Фильмы</a>
+                    </li>
+                    <li class="list-style">
+                        <a class="menu-style" href="#">Сериалы</a>
+                    </li>
+                    <li id = "click" class="list-style">
+                        <a class="menu-style" href="#">Детям</a>
+                    </li>
+                    <li class="list-style">
+                        <a class="menu-style" href="#">История</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="info">
+                <div class="next-yer">
+                    <a class="menu-style" href="#">Следующий год</a>
+                </div>
+                <div class="bell">
+                    <img class="block-info сhange-indentation" src="/icons/fingerprint.svg" alt="Уведомления" width="50px">
+                </div>
+                <div class="avatar">
+                    <div class="block-info ">
+                        <img id="event-popup" class="header-avatar" src="/icons/user.svg" alt="Аватар акаунта">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+        
+    <section class="section">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-12 col-lg-4">
+                    <img class="container__img" src="img/cover.png" width="100%" alt="Тизер">
+                </div>
+                <div class="col-12 col-lg-4">
+                    <div class="movies">
+                        <h1 class="movies__title">Тайлер Рейк: Операция <br> по спасению</h1>
+                        <p class="movies__descr">
+                            Год: 2020 <br>
+                            Жанр: Боевик <br>
+                            Врема: 1 ч 57 мин <br>
+                            Бюджет: $65 000 000 <br>
+                            Премъера (мир): 24 апреля
+                        </p>
+                        <p class="movies__descr descr">
+                            Группировка наёмников берётся освободить из заложников
+                            сына сидящего в тюрьме индийского наркобарона. Подростка
+                            похитили конкуренты и держат его в столице Бангладеш
+                            Дакке — городе, состоящем из трущоб и практически
+                            полностью окружённом реками. Ответственное задание
+                            поручатся бывшему военному Тайлеру Рейку. Он легко
+                            расправляется с вооружённой охраной и быстро освобождает
+                            пленника, но доставить парня в безопасное место и выбраться
+                            из города, где на тебя объявлена охота, оказывается
+                            не так-то просто
+                        </p>
+                        <div class="actoranddirector">
+                            <div class="actor">
+                                <h1 class="actor__role">Главная роль</h1>
+                                <h5 class="role__size">Крис Хемсворт</h5>
+                                <img class="role__img" src="img/kris-hemsvort.png" alt="Chris Hemsworth">
+                            </div>
+                            <div class="director">
+                                <h1 class="actor__role">Режисер</h1>
+                                <h5 class="role__size">Сэм Харгрейв</h5>
+                                <img class="role__img" src="img/regiser.png" alt="Sam Hargrave">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-lg-4">
+                    <video class="video-operations" poster="img/poster.jpg" src="video/trailer.mp4" controls="controls" width="450px"></video>
+                </div>
+            </div>
+    </section>
+
+    <section class="movies">
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="card-film">
+                        <img class="card-filim__img" src="img/posters/119898.jpg" alt="">
+                        <h2>Film</h2>
+                        <p>Описание Фильма</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card-film">
+                        <img class="card-filim__img" src="img/posters/4104b8ab6e936e6c0bfe_300x450c.jpeg" alt="">
+                        <h2>Film</h2>
+                        <p>Описание Фильма</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card-film">
+                        <img class="card-filim__img" src="img/posters/119898.jpg" alt="">
+                        <h2>Film</h2>
+                        <p>Описание Фильма</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card-film">
+                        <img class="card-filim__img" src="img/posters/smertelnye-illyuzii-61-1598864766.jpg" alt="">
+                        <h2>Film</h2>
+                        <p>Описание Фильма</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="col">
+                    <div class="card-film">
+                        <img class="card-filim__img" src="img/posters/119898.jpg" alt="">
+                        <h2>Film</h2>
+                        <p>Описание Фильма</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card-film">
+                        <img class="card-filim__img" src="img/posters/4104b8ab6e936e6c0bfe_300x450c.jpeg" alt="">
+                        <h2>Film</h2>
+                        <p>Описание Фильма</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card-film">
+                        <img class="card-filim__img" src="img/posters/119898.jpg" alt="">
+                        <h2>Film</h2>
+                        <p>Описание Фильма</p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card-film">
+                        <img class="card-filim__img" src="img/posters/smertelnye-illyuzii-61-1598864766.jpg" alt="">
+                        <h2>Film</h2>
+                        <p>Описание Фильма</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="admin">
+            <h1 class="admin__site">О cайте</h1>
+            <strong>Администратор сайта -<p class="director__h5 change">Байрам Эмиралиев</p></strong>
+            <strong>Разработчик - <p class="director__h5 change">bayram.kad@gmail.com</p></strong>
+            <strong>Сайт создан - <p class="director__h5 change">2020</p></strong>
+        </div>
+        <div class="support">
+            <h1 class="social">Мы в соц. сетях</h1>
+            <div class="support__social">
+                <a class="support__social-link" href="#"><img src="/icons/vk.svg" alt=""></a>
+                <a class="support__social-link" href="#"><img src="/icons/instagram.svg" alt=""></a>
+                <a class="support__social-link" href="#"><img src="/icons/google.svg" alt=""></a>
+                <a class="support__social-link" href="#"><img src="/icons/telegram.svg" alt=""></a>
+            </div>
+        </div> 
+        <div class="fast-call">
+            <h1 class="fast-call__descr">Тех. поддержка</h1>
+            <h1 class="phone">8 999-899-89-89</h1>        
+        </div>
+    </footer>
+</script>
+</body>
+</html>

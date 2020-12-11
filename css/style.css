@@ -1,0 +1,327 @@
+*{
+    box-sizing: border-box;
+    color: inherit;
+}
+
+input *:active, :hover, :focus {
+    outline: 0;
+    outline-offset: 0;
+    color: #fff;
+    border: none;
+}
+
+button{
+    color: #000;
+    cursor: pointer;
+    outline: none;
+    border: 0;
+    border-radius: 10px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Russo One", sans-serif;
+    font-family: "Montserrat", sans-serif;
+    background-color: #092C34;
+    color: #fff;
+    transition: 1s;
+} 
+
+body.dark-theme{
+    background-color: #bdd7ce78;
+    color: black;
+    transition: 1s;
+}
+body a {
+    color: inherit;
+}
+
+header{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 120px;
+} 
+.section{
+    align-items: center;
+}
+.content{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    justify-content: space-evenly;
+    top: -90;
+    align-items: center;
+    position: relative;
+    background-color: #092C34;
+    z-index: 3;
+}
+.navigation-menu{
+    display: none;
+}
+
+.animation-menu{
+    display: none;
+}
+.menu-style {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    width: 100%;
+    background-color: rgba(0, 0, 255, 0);
+    vertical-align: middle;
+    transition: all 0.3s;
+    border: 2px solid rgba(0, 0, 255, 0);
+    padding: 5px 20px;
+    cursor: pointer;
+    border-radius: 2px;
+}
+
+.menu-style:hover {
+    border-color: #36D88A;
+    box-shadow: 0px 0px 20px #36D88A;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.list-style {
+    margin-left: 15px;
+    margin-right: 15px;
+    list-style-type: none;
+}
+
+.header-logo {
+    width: 80px;
+    height: 80px;
+}
+.header-time {
+    width: 16px;
+    height: 16px;
+    vertical-align: top;
+}
+.header-avatar {
+    width: 40px;
+    height: 40px;
+}
+.next-yer {
+    vertical-align: middle;
+    margin-right: 20px;
+}
+.next-yer a {
+    padding: 5px 20px;
+    border: 2px solid rgba(0, 0, 255, 0);
+    transition: all 0.3s;
+}
+.next-yer a:hover {
+    border-color: #36D88A;
+    box-shadow: 0px 0px 20px #36D88A;
+    transition: all 0.3s;
+    color: #BFEED8;
+}
+
+.сhange-indentation{
+    margin-right: 20px;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    /* text-transform: uppercase; */
+    margin: 0;
+    padding: 0;
+}
+
+.block-info {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border: 3px solid rgba(0, 0, 255, 0);
+    padding: 5px;
+    border-radius: 100%;
+    transition: all 0.3s;
+}
+.block-info:hover {
+    border-color: #36D88A;
+    box-shadow: 0px 0px 20px #36D88A;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.movies {
+    font-family: "Montserrat", sans-serif;
+}
+.movies__title {
+    width: 700px;
+    font-family: "Russo One", sans-serif;
+    font-size: 36px;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.movies__descr {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    line-height: initial;
+}
+.descr {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+}
+.actoranddirector {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    vertical-align: middle;
+}
+.actor__role {
+    font-size: 10px;
+    text-align: center;
+}
+.role__size {
+    font-size: 14px;
+    margin: 5px 0px 15px 0px;
+    font-weight: 400;
+}
+.role__img {
+    width: 86px;
+    height: 86px;
+
+}
+.trailer-img {
+    width: 360px;
+    height: 204px;
+}
+.arrow-img {
+    width: 28px;
+    height: 28px;
+}
+
+.footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: top;
+    vertical-align: middle;
+    margin: 100px 0px 20px 0px;
+    font-size: 14px;
+    text-align: center;
+    opacity: 0.8;
+}
+.social {
+    margin-bottom: 20px;
+    font-size: 18px;
+}
+
+.change{
+    padding-left: 10px;
+}
+strong{
+    display: flex;
+}
+.admin__site{
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.admin{
+    line-height: 14px;
+    font-size: 13px;
+}
+a img{
+    border: 2px solid white;
+    padding: 5px;
+    border-radius: 100%;
+    transition: all 0.3s;
+    width: 42px;
+    height: 42px;
+}
+a img:hover{
+    border-color: #36D88A;
+    box-shadow: 0px 0px 20px #36D88A;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.support__social-link{
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+}
+.fast-call__descr{
+    margin: 0px 0px 20px 0px;
+    text-align: center;
+    font-size: 20px;
+}
+.phone{
+    font-size: 35px;
+    font-weight: 600;
+}
+
+#form-modal{
+    display: none;
+    position: fixed;
+    flex-direction: column;
+    align-items: center;
+    align-content: stretch;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    color: white;
+    z-index: 40;
+    background-color: #092C34;
+    font-size: 30px;
+}
+
+#spanExit{
+    display: block;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    position: relative;
+    z-index: 40;
+}
+
+.form-h1{
+    font-family: "Russo One", sans-serif;
+    text-align: center;
+}
+.form-modal__input{
+    flex-direction: column;
+    display: flex;
+    justify-content: space-around;
+    height: 250px;
+    width: 400px;
+}
+
+.input-form{
+    padding: 14px 16px;
+    background-color: #fff0;
+    border: none;
+    color: #fff;
+    border-bottom: 2px solid #fff;
+    font-size: 14px;
+    font-family: "Montserrat", sans-serif;
+}
+.input-form::placeholder {
+    color: rgba(255, 255, 255, 0.472);
+}
+
+.white{
+    color: white;
+}
+
+
+.card-filim__img {
+    width: 153px;
+    height: 235px;
+}
+
+.card-film {
+    text-align: center;
+    margin: 90px 0 0 0;
+}
